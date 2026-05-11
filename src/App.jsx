@@ -18,6 +18,8 @@ function App() {
     handleClarificationAnswer
   } = usePlanner();
 
+  const hasResults = isPlanning || traceLog.length > 0 || finalPlan || clarification;
+
   return (
     <div className="app-container">
       <div className="animated-bg"></div>
@@ -27,7 +29,7 @@ function App() {
         <p>Advanced AI Agent orchestrating your ideal weekend via constraint-satisfaction routing.</p>
       </header>
 
-      <main className="main-content">
+      <main className={`main-content ${!hasResults ? 'centered-layout' : ''}`}>
         {!clarification ? (
           <PlannerForm 
             formData={formData} 

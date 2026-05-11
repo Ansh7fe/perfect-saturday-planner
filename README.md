@@ -7,13 +7,11 @@ An AI-powered agent built with React (Vite) that crafts a highly personalized, f
 ## 🎯 Submission Requirements
 
 ### 1. Live URL
-**[INSERT YOUR VERCEL/NETLIFY URL HERE]**
+https://perfect-saturday-planner.netlify.app/
 *(Click the link above to test the app in your browser!)*
 
 ### 2. Loom Demo
-**[INSERT YOUR LOOM URL HERE]** (Optional, but highly recommended)
-
----
+(https://www.loom.com/share/bcb209252c524613a90a487340f40191)
 
 ## 🧠 Advanced Agent Features (Bonus Points Completed)
 
