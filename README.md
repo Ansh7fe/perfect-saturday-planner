@@ -51,4 +51,3 @@ If you'd like to run the code on your local machine to inspect the architecture:
 3. Open `http://localhost:5173` in your browser.
 
 *(Note: The project is structured with production-standard architecture, separating business logic into `/src/ai/`, UI components into `/src/components/`, and state management into `/src/hooks/`)*
-# perfect-saturday-planner
